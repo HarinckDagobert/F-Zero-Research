@@ -1,0 +1,11 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "reward": {
+    "script": "lua:fzero_reward"
+  }
+}

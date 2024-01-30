@@ -1,0 +1,40 @@
+{
+  "info": {
+    "boost": {
+      "address": 3315,
+      "type": "|u1"
+    },
+    "fall": {
+      "address": 8263796,
+      "type": "|d1"
+    },
+    "lapcount": {
+      "address": 3385,
+      "type": ">d8"
+    },
+    "lost": {
+      "address": 4393,
+      "type": "<u2"
+    },
+    "power": {
+      "address": 201,
+      "type": "<u2"
+    },
+    "rank": {
+      "address": 3525,
+      "type": ">d4"
+    },
+    "reverse": {
+      "address": 2817,
+      "type": "|u1"
+    },
+    "speed": {
+      "address": 2848,
+      "type": "<d2"
+    },
+    "time": {
+      "address": 8257725,
+      "type": ">d6"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "done": {
+    "variables": {
+      "fall": {
+        "op": "equal",
+        "reference": 1
+      },
+      "lapcount": {
+        "op": "equal",
+        "reference": 5
+      },
+      "lost": {
+        "op": "equal",
+        "reference": 1
+      },
+      "power": {
+        "op": "less-than",
+        "reference": 100
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "lapcount": {
+        "op": "equal",
+        "reference": 1,
+        "reward": 200.0
+      },
+      "power": {
+        "penalty": 0.10000000149011612,
+        "reward": 0.10000000149011612
+      },
+      "rank": {
+        "penalty": -100.0,
+        "reward": -100.0
+      },
+      "reverse": {
+        "op": "equal",
+        "reference": 5,
+        "reward": -500.0
+      }
+    }
+  }
+}
